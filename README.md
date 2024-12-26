@@ -21,9 +21,9 @@ Blesson Feba Wedding
     </div>
     <script src="script.js"></script>
 </body>
-</html>
-
-body {
+    <body>
+        
+    {
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
@@ -69,7 +69,7 @@ h1 {
 
 
 // Set the date of the wedding
-const weddingDate = new Date("2025-06-01T00:00:00").getTime();
+const weddingDate = new Date("2025-05-22T11:00:00").getTime();
 
 // Update the countdown every second
 const countdown = setInterval(() => {
@@ -94,3 +94,7 @@ const countdown = setInterval(() => {
         document.getElementById("countdown").innerHTML = "The Wedding Day is here!";
     }
 }, 1000);
+</body> 
+</html>
+
+
